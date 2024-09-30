@@ -1,12 +1,7 @@
 #![no_std]
 
-// use panic_abort as _;
+use panic_abort as _;
 use fake::fake;
-
-#[panic_handler]
-fn handle_handle(_info: &core::panic::PanicInfo) -> ! {
-    loop {}
-}
 
 fake!(Alpc0noname1);
 fake!(Alpc0noname2);

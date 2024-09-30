@@ -8,4 +8,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 paste = "1"
+panic-abort = "0.3.2"
 fake = { path = "../fake" }

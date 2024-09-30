@@ -6,4 +6,4 @@ rustflags = [
 ]
 
 [unstable]
-build-std = ["core", "panic_abort"]
+build-std = ["core"]
