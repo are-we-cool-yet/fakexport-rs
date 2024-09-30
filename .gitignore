@@ -1,0 +1,7 @@
+/target
+/*.sys
+/*.exe
+/*.def
+/*.txt
+/*.cpp
+.DS_Store

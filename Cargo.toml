@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "ntoskrnl",
+]
+resolver = "2"

@@ -1,0 +1,9 @@
+[build]
+target = "x86_64-pc-windows-gnu"
+rustflags = [
+    "-C", "panic=abort",
+    "-C", "link-args=-nostdlib",
+]
+
+[unstable]
+build-std = ["core", "panic_abort"]
