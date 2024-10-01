@@ -10,6 +10,33 @@ dependencies = [
 ]
 
 [[package]]
+name = "fltmgr"
+version = "0.1.0"
+dependencies = [
+ "fake",
+ "panic-abort",
+ "paste",
+]
+
+[[package]]
+name = "hal"
+version = "0.1.0"
+dependencies = [
+ "fake",
+ "panic-abort",
+ "paste",
+]
+
+[[package]]
+name = "ksecdd"
+version = "0.1.0"
+dependencies = [
+ "fake",
+ "panic-abort",
+ "paste",
+]
+
+[[package]]
 name = "ntoskrnl"
 version = "0.1.0"
 dependencies = [

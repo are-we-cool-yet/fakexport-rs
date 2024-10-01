@@ -1,5 +1,8 @@
 [workspace]
 members = [
     "ntoskrnl",
+    "fltmgr",
+    "hal",
+    "ksecdd",
 ]
 resolver = "2"
